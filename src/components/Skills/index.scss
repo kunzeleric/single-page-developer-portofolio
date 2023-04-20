@@ -1,0 +1,61 @@
+@use "../src/assets/sass/_variables.scss" as *;
+
+.skills {
+  text-align: center;
+
+  &__title {
+    color: $white;
+    font-size: 4vw;
+    padding-bottom: 10px;
+    border-bottom: 3px solid $green-light;
+    display: inline-block;
+    margin-bottom: 1.5em;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-inline: 5%;
+
+    &-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-basis: 20%;
+      gap: 1em;
+
+      &-img {
+        width: 70px;
+        height: 70px;
+      }
+
+      &-name {
+        color: $white;
+        font-weight: 700;
+        font-size: 2.5em;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  //classe criada para representar a animação de transição
+  .animate{
+
+    animation: slide-in 0.7s ease-in-out;
+
+    @keyframes slide-in {
+      from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(0%);
+      }
+    }
+
+}
+}
