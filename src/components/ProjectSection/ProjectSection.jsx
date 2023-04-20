@@ -29,8 +29,8 @@ const ProjectSection = () => {
                 <span className="project__container-card-group-technology">JavaScript</span>
             </div>
               <div className="project__container-card-group__container-tech">
-                <a className="project__container-card-link"href="" target="_blank"><img src={githubLogo} alt="Github Link" /></a>
-                <a className="project__container-card-link" href="" target="_blank"><img src={netlifyLogo} alt="Netlify Link" /></a>
+                <a className="project__container-card-link" href="https://github.com/kunzeleric/random-inspiration-messages" target="_blank"><img src={githubLogo} alt="Github Link" /></a>
+                <a className="project__container-card-link" href="https://random-motivational-msgs.netlify.app" target="_blank"><img src={netlifyLogo} alt="Netlify Link" /></a>
               </div>
           </div>
           </div>
@@ -48,8 +48,8 @@ const ProjectSection = () => {
                 <span className="project__container-card-group-technology">JavaScript</span>
               </div>
               <div className="project__container-card-group__container-tech">
-                <a className="project__container-card-link"href="" target="_blank"><img src={githubLogo} alt="Github Link" /></a>
-                <a className="project__container-card-link" href="" target="_blank"><img src={netlifyLogo} alt="Netlify Link" /></a>
+                <a className="project__container-card-link" href="https://github.com/kunzeleric/comicCon_LP" target="_blank"><img src={githubLogo} alt="Github Link" /></a>
+                <a className="project__container-card-link" href="https://comic-con-landpage.netlify.app" target="_blank"><img src={netlifyLogo} alt="Netlify Link" /></a>
               </div>
           </div>
           </div>
@@ -66,8 +66,8 @@ const ProjectSection = () => {
             <span className="project__container-card-group-technology">Bootstrap</span>
             </div>
             <div className="project__container-card-group__container-tech">
-            <a className="project__container-card-link"href="" target="_blank"><img src={githubLogo} alt="Github Link" /></a>
-            <a className="project__container-card-link" href="" target="_blank"><img src={netlifyLogo} alt="Netlify Link" /></a>
+            <a className="project__container-card-link" href="https://github.com/kunzeleric/news-home-page" target="_blank"><img src={githubLogo} alt="Github Link" /></a>
+            <a className="project__container-card-link" href="https://news-homepage-tech.netlify.app" target="_blank"><img src={netlifyLogo} alt="Netlify Link" /></a>
             </div>
           </div>
         </div>
@@ -85,8 +85,8 @@ const ProjectSection = () => {
                 <span className="project__container-card-group-technology">React Router</span>
               </div>
               <div className="project__container-card-group__container-tech">
-                <a className="project__container-card-link"href="" target="_blank"><img src={githubLogo} alt="Github Link" /></a>
-                <a className="project__container-card-link" href="" target="_blank"><img src={netlifyLogo} alt="Netlify Link" /></a>
+                <a className="project__container-card-link" href="https://github.com/kunzeleric/project_Ecommerce" target="_blank"><img src={githubLogo} alt="Github Link" /></a>
+                <a className="project__container-card-link" href="https://ecommerce-dnc-page.netlify.app" target="_blank"><img src={netlifyLogo} alt="Netlify Link" /></a>
               </div>
                 </div>
             </div>
@@ -104,8 +104,8 @@ const ProjectSection = () => {
                 <span className="project__container-card-group-technology">Sass</span>
               </div>
               <div className="project__container-card-group__container-tech">
-                <a className="project__container-card-link"href="" target="_blank"><img src={githubLogo} alt="Github Link" /></a>
-                <a className="project__container-card-link" href="" target="_blank"><img src={netlifyLogo} alt="Netlify Link" /></a>
+                <a className="project__container-card-link"href="https://github.com/kunzeleric/movieList_project" target="_blank"><img src={githubLogo} alt="Github Link" /></a>
+                <a className="project__container-card-link" href="https://movie-list-deplayer.netlify.app" target="_blank"><img src={netlifyLogo} alt="Netlify Link" /></a>
               </div>
               </div>
           </div>
@@ -123,8 +123,8 @@ const ProjectSection = () => {
                 <span className="project__container-card-group-technology">API</span>
               </div>
               <div className="project__container-card-group__container-tech">
-                <a className="project__container-card-link" href="" target="_blank"><img src={githubLogo} alt="Github Link" /></a>
-                <a className="project__container-card-link" href="" target="_blank"><img src={netlifyLogo} alt="Netlify Link" /></a>
+                <a className="project__container-card-link" href="https://github.com/kunzeleric/react_Weather" target="_blank"><img src={githubLogo} alt="Github Link" /></a>
+                <a className="project__container-card-link" href="https://weather-react-nowandthen.netlify.app" target="_blank"><img src={netlifyLogo} alt="Netlify Link" /></a>
               </div>
               </div>
             </div>

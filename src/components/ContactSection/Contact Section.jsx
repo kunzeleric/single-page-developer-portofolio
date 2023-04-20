@@ -23,9 +23,9 @@ const ContactSection = () => {
               <div className="footer__social-media-footer">
                 <p className="footer__social-media-footer-name">erickunzel</p>
                 <nav className="footer__social-media-footer-social">
-                  <a className="footer__social-media-footer-social-link"><img src={githubLogo} alt="Github"/></a>
-                  <a className="footer__social-media-footer-social-link"><img src={linkedinLogo} alt="Linkedin"/></a>
-                  <a className="footer__social-media-footer-social-link"><img src={frontendLogo} alt="Frontend Mentor"/></a>
+                  <a className="footer__social-media-footer-social-link" href="https://github.com/kunzeleric" target="_blank"><img src={githubLogo} alt="Github"/></a>
+                  <a className="footer__social-media-footer-social-link" href="https://www.linkedin.com/in/eric-edward-k%C3%BCnzel-0b139574/" target="_blank"><img src={linkedinLogo} alt="Linkedin"/></a>
+                  <a className="footer__social-media-footer-social-link" href="#" target="_blank"><img src={frontendLogo} alt="Frontend Mentor"/></a>
                 </nav>
               </div>
             </div>

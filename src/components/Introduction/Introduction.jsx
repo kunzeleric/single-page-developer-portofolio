@@ -14,7 +14,7 @@ const Introduction = () => {
           <a
             title="Github - Eric Kunzel"
             className="introduction-menu__nav-link"
-            href="#"
+            href="https://github.com/kunzeleric"
             target="_blank"
           >
             <img src={githubLogo} alt="Github - Eric Kunzel" />
@@ -22,7 +22,7 @@ const Introduction = () => {
           <a
             title="Linkedin - Eric Kunzel"
             className="introduction-menu__nav-link"
-            href="#"
+            href="https://www.linkedin.com/in/eric-edward-k%C3%BCnzel-0b139574/"
             target="_blank"
           >
             <img src={linkedinLogo} alt="Linkedin - Eric Kunzel" />
