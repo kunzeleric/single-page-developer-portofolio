@@ -2,6 +2,14 @@
 
 .skills {
   text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  &__img{
+    position: absolute;
+    bottom: 0;
+    right: -15%;
+  }
 
   &__title {
     color: $white;

@@ -1,0 +1,71 @@
+@use "../../assets/sass/variables" as *;
+
+.footer {
+  background-color: $black-contrast;
+  padding-inline: 10%;
+  position: relative;
+  overflow: hidden;
+
+  &__contact {
+    display: flex;
+    justify-content: space-around;
+    padding-block: 3em;
+
+    &__introduction {
+      width: 50%;
+
+      &-info {
+        &-title {
+          color: $white;
+          font-size: 4vw;
+          padding-bottom: 10px;
+          border-bottom: 3px solid $green-light;
+          display: inline-block;
+          margin-bottom: 0.5em;
+          text-transform: uppercase;
+        }
+
+        &-msg {
+          width: 75%;
+          font-size: 1.1rem;
+          color: $white;
+          line-height: 1.7
+        }
+      }
+    }
+  }
+  &__social-media {
+    &-footer {
+      display: flex;
+      justify-content: space-around;
+      padding-block: 2em;
+
+      &-name {
+        color: $white;
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+
+      &-social {
+        display: flex;
+        gap: 1.5em;
+
+        img {
+          width: 40px;
+          transition: transform 0.5s ease-in-out;
+          cursor: pointer;
+        }
+
+        img:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+
+  &__ring {
+    position: absolute;
+    top: 50%;
+    left: -12%;
+  }
+}

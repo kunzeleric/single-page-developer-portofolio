@@ -7,6 +7,7 @@ import mongoLogo from "../../assets/images/mongodb-icon.svg";
 import sqlLogo from "../../assets/images/sql-icon.svg";
 import nodeLogo from "../../assets/images/node-icon.svg";
 import cssLogo from "../../assets/images/css-icon.svg";
+import ringsImage from "../../assets/images/pattern-rings.svg";
 
 document.addEventListener('scroll', function (e) {
       let top  = window.scrollY + window.innerHeight;
@@ -84,6 +85,7 @@ const Skills = () => {
             <span className="skills__container-card-name">SQL</span>
           </div>
         </div>
+        <img className="skills__img" src={ringsImage} alt="Rings" />
       </section>
 
       <div className="divider">

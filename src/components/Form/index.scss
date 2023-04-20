@@ -1,1 +1,78 @@
-@use '../src/assets/sass/_variables.scss' as *;
+@use "../../assets/sass/variables" as *;
+
+.contact__form {
+  position: relative;
+  right: 10%;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+
+    .contact__form-field {
+      position: relative;
+      display: flex;
+      margin-bottom: 0.5em;
+
+
+      input {
+        width: 25vw;
+        height: 5vh;
+        background-color: transparent;
+        border: 0;
+        border-bottom: 1px solid #fff;
+        color: $white;
+        font-size: 1rem;
+        position: relative;
+      }
+
+      label {
+        color: #fff;
+        opacity: 50%;
+        text-transform: uppercase;
+        pointer-events: none;
+        position: absolute;
+        top: 1rem;
+        left: 2rem;
+        transition: all 0.3s ease-in-out;
+      }
+
+      textarea {
+        background-color: transparent;
+        border: 0;
+        border-bottom: 1px solid #fff;
+        color: $white;
+        font-size: 1rem;
+        width: 100%;
+      }
+
+      input:focus + label,
+      input:not(:placeholder-shown) + label {
+        left: -3.5em;
+      }
+
+      textarea:focus + label{
+        left: -5em;
+      }
+    }
+
+    #submit {
+      margin-top: 2em;
+      background-color: transparent;
+      border: 0;
+      border-bottom: 3px solid $green-light;
+      padding-bottom: 0.5rem;
+      display: inline-block;
+      align-self: center;
+      color: $white;
+      font-size: 1.2em;
+      text-transform: uppercase;
+      transition: all 0.6s ease-in-out;
+      cursor: pointer;
+    }
+
+    #submit:hover {
+      color: $green-light;
+    }
+  }
+}
