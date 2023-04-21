@@ -8,6 +8,24 @@ import projectSix from "../../assets/images/weatherapi.jpg";
 import githubLogo from "../../assets/images/icon-github.svg";
 import netlifyLogo from "../../assets/images/icon-netlify.svg";
 
+document.addEventListener('scroll', function (e) {
+  let top  = window.scrollY + window.innerHeight;
+  let isVisible = top > document.querySelector('.project__container-cards-left').offsetTop;
+
+if (isVisible) {
+ document.querySelector('.project__container-cards-left').classList.add('animate-left');
+}
+});
+
+document.addEventListener('scroll', function (e) {
+  let top  = window.scrollY + window.innerHeight;
+  let isVisible = top > document.querySelector('.project__container-cards-right').offsetTop;
+
+if (isVisible) {
+ document.querySelector('.project__container-cards-right').classList.add('animate-right');
+}
+});
+
 const ProjectSection = () => {
   return (
     <section className="project">
@@ -16,7 +34,8 @@ const ProjectSection = () => {
         <a className="project__header-link" href="#">CONTACT ME</a>
       </div>
       <div className="project__container">
-        <div className="project__container-card">
+        <div className="project__container-cards-left">
+          <div className="project__container-card">
           <figure className="project__container-card-img">
             <img src={projectOne} alt="Project Motivational Messages" />
             <figcaption>Motivational Messages Generator</figcaption>
@@ -34,8 +53,8 @@ const ProjectSection = () => {
               </div>
           </div>
           </div>
-        </div>
-        <div className="project__container-card">
+          </div>
+          <div className="project__container-card">
             <figure className="project__container-card-img">
               <img src={projectTwo} alt="Project Comic Con 2022 Landpage" />
               <figcaption>Comic Con Event</figcaption>
@@ -53,8 +72,8 @@ const ProjectSection = () => {
               </div>
           </div>
           </div>
-        </div>
-        <div className="project__container-card">
+          </div>
+          <div className="project__container-card">
           <figure className="project__container-card-img">
             <img src={projectThree} alt="Project News Land Page" />
             <figcaption>Tech News Homepage</figcaption>
@@ -71,8 +90,10 @@ const ProjectSection = () => {
             </div>
           </div>
         </div>
+          </div>
       </div>
-        <div className="project__container-card">
+        <div className="project__container-cards-right">
+          <div className="project__container-card">
           <figure className="project__container-card-img">
             <img src={projectFour} alt="Project E-commerce DNC" />
             <figcaption>E-commerce DNC</figcaption>
@@ -90,8 +111,8 @@ const ProjectSection = () => {
               </div>
                 </div>
             </div>
-        </div>
-        <div className="project__container-card">
+          </div>
+          <div className="project__container-card">
           <figure className="project__container-card-img">
             <img src={projectFive} alt="Project Movies List API" />
             <figcaption>Movie List API</figcaption>
@@ -109,10 +130,10 @@ const ProjectSection = () => {
               </div>
               </div>
           </div>
-        </div>
-        <div className="project__container-card">
+          </div>
+          <div className="project__container-card">
           <figure className="project__container-card-img">
-            <a href="" target="_blank"><img src={projectSix} alt="Project API Weather" /></a>
+            <img src={projectSix} alt="Project API Weather" />
             <figcaption>Weather API React</figcaption>
           </figure>
           <div className="project__container-card-group">
@@ -128,8 +149,9 @@ const ProjectSection = () => {
               </div>
               </div>
             </div>
+          </div>
         </div>
-        </div>
+      </div>
     </section>
   );
 };
