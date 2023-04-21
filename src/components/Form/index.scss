@@ -51,7 +51,8 @@
         left: -3.5em;
       }
 
-      textarea:focus + label{
+      textarea:focus + label,
+      textarea:not(:placeholder-shown) {
         left: -5em;
       }
     }
@@ -73,6 +74,94 @@
 
     #submit:hover {
       color: $green-light;
+    }
+  }
+}
+
+/* TABLET */
+@media (max-width: 900px) {
+  .contact__form {
+    right: 0;
+    margin-top: 2em;
+  
+  
+    form {
+      align-items: center;
+      margin: 0;
+  
+      .contact__form-field {
+
+        input {
+          width: 65vw;
+          height: 8vh;
+        }
+  
+        label {
+          font-size: 1.2rem;
+        }
+  
+        textarea {
+          font-size: 1.2rem;
+          width: 65vw;
+        }
+  
+        input:focus + label,
+        input:not(:placeholder-shown) + label {
+          left: -3.5em;
+        }
+  
+        textarea:focus + label,
+        textarea:not(:placeholder-shown) {
+          left: -5em;
+        }
+      }
+  
+      #submit {
+        font-size: 1.3em;
+      }
+    }
+  }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .contact__form {
+    right: 0;
+    margin-top: 2em;
+  
+  
+    form {
+      align-items: center;
+      margin: 0;
+  
+      .contact__form-field {
+
+        input {
+          width: 65vw;
+        }
+  
+        label {
+          font-size: 1rem;
+        }
+  
+        textarea {
+          font-size: 1rem;
+        }
+  
+        input:focus + label,
+        input:not(:placeholder-shown) + label {
+          left: -3.5em;
+        }
+  
+        textarea:focus + label,
+        textarea:not(:placeholder-shown) {
+          left: -5em;
+        }
+      }
+  
+      #submit {
+        font-size: 1.5em;
+      }
     }
   }
 }

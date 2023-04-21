@@ -67,3 +67,64 @@
 
 }
 }
+
+/* TABLET */
+@media (max-width: 900px) {
+  .skills {
+  
+    &__img{
+      right: -45%;
+      z-index: -2;
+    }
+  
+    &__title {
+      font-size: 7vw;
+    }
+  
+    &__container {
+      width: 100%;
+      padding-inline: 0;
+  
+      &-card {
+        flex-basis: 30%;
+        gap: 1em;
+
+        &-name {
+          font-size: 2em;
+        }
+      }
+    }
+  }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .skills {
+  
+    &__img{
+      position: absolute;
+      bottom: 35%;
+      right: -80%;
+    }
+  
+    &__title {
+      font-size: 10vw;
+    }
+  
+    &__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-inline: 0.5em;
+  
+      &-card {
+        &-img {
+          height: 60px;
+        }
+  
+        &-name {
+          font-size: 1.7em;
+        }
+      }
+    }
+  }
+}

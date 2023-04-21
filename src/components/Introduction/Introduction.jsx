@@ -55,7 +55,7 @@ const Introduction = () => {
               front-end developer. I love challenges and gaming, and I'm
               always eager to learn something new.
             </p>
-            <a href="#" className="introduction-section-left__info-link">
+            <a href="#contact" className="introduction-section-left__info-link">
               contact me
             </a>
           </div>

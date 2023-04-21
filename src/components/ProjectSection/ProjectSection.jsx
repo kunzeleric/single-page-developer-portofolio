@@ -31,7 +31,7 @@ const ProjectSection = () => {
     <section className="project">
       <div className="project__header">
         <h1 className="project__header-title">PROJECTS</h1>
-        <a className="project__header-link" href="#">CONTACT ME</a>
+        <a className="project__header-link" href="#contact">CONTACT ME</a>
       </div>
       <div className="project__container">
         <div className="project__container-cards-left">

@@ -43,18 +43,18 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    
+
     margin-top: 2em;
     gap: 4em;
 
-    &-cards-left{
+    &-cards-left {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
       gap: 5em;
     }
 
-    &-cards-right{
+    &-cards-right {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -68,7 +68,6 @@
       gap: 1em;
 
       &-img {
-
         figcaption {
           color: $white;
           font-size: 1.1rem;
@@ -89,19 +88,17 @@
       }
 
       &-group {
-
-        &__container{
+        &__container {
           display: flex;
           justify-content: space-between;
           align-items: center;
 
-          &-tech{
+          &-tech {
             display: flex;
             align-items: center;
             gap: 0.5em;
           }
         }
-
       }
 
       &-link {
@@ -122,23 +119,21 @@
   }
 }
 
-  //classe criada para representar a animação de transição
-  .animate-right{
+//classe criada para representar a animação de transição
+.animate-right {
+  animation: slide-in 1.1s ease-in-out;
 
-    animation: slide-in 1.1s ease-in-out;
-
-    @keyframes slide-in {
-      from {
-        transform: translateX(0%);
-      }
-      to {
-        transform: translateX(-100%);
-      }
+  @keyframes slide-in {
+    from {
+      transform: translateX(0%);
     }
+    to {
+      transform: translateX(-100%);
+    }
+  }
 }
 
-.animate-left{
-
+.animate-left {
   animation: slide-in 1.2s ease-in-out;
 
   @keyframes slide-in {
@@ -149,5 +144,122 @@
       transform: translateX(100%);
     }
   }
+}
 
+/* TABLET */
+@media (max-width: 900px) {
+  .project {
+    margin: 0;
+
+    &__header {
+      flex-direction: column;
+      gap: 2em;
+      padding-bottom: 1em;
+
+      &-title {
+        font-size: 7vw;
+        position: inherit;
+      }
+
+      &-link {
+        position: inherit;
+      }
+    }
+
+    &__container {
+      padding-bottom: 3em;
+      margin-top: 2em;
+      gap: 2em;
+
+      &-cards-left {
+        gap: 3em;
+      }
+
+      &-cards-right {
+        gap: 3em;
+      }
+
+      &-card {
+        &-img {
+          figcaption {
+            color: $white;
+            font-size: 1.3rem;
+          }
+
+          img {
+            width: 500px;
+          }
+        }
+        &-group {
+          &__container {
+            &-tech {
+              gap: 0.8em;
+            }
+          }
+        }
+
+        &-link {
+          img {
+            width: 40px;
+          }
+        }
+      }
+    }
+
+    .project__container-card-group-technology {
+      padding: 7px;
+    }
+  }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .project {
+
+    &__header {
+      &-title {
+        font-size: 10vw;
+      }
+    }
+
+    &__container {
+      padding-inline: 0.5em;
+
+      &-card {
+        text-align: center;
+
+        &-img {
+          figcaption {
+            font-size: 1.2rem;
+          }
+
+          img {
+            max-width: 85vw;
+            max-height: 25vh;
+          }
+          
+          img:hover {
+            transform: scale(0.9);
+          }
+        }
+        &-group {
+          &__container {
+            &-tech {
+              gap: 0.5em;
+            }
+          }
+        }
+
+        &-link {
+          img {
+            width: 30px;
+          }
+        }
+      }
+    }
+    .project__container-card-group-technology {
+      padding: 5px;
+      font-size: 1em;
+    }
+  }
 }

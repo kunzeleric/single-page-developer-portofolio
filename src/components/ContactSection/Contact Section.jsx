@@ -7,7 +7,7 @@ import "./index.scss";
 
 const ContactSection = () => {
   return (
-    <section className="footer">
+    <section className="footer" id="contact">
         <section className="footer__contact">
           <div className="footer__contact__introduction">
             <div className="footer__contact__introduction-info">

@@ -3,7 +3,7 @@ import "./index.scss";
 const Form = () => {
   return (
     <div className="contact__form">
-      <form>
+      <form action="https://formsubmit.co/889b71617af2faa7e94857ee6c371c9b" method="POST">
         <div className="contact__form-field">
           <input type="text" name="name" id="name" placeholder=" " required />
           <label htmlFor="name">Name</label>
