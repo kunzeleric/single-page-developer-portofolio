@@ -24,7 +24,7 @@ export const PROJECTS =
         },
         {
             "name": "E-commerce DNC",
-            "technologies": ["PythonReact", "Sass", "React Router"],
+            "technologies": ["React", "Sass", "React Router"],
             "imgPath": "./ecommerce.jpg",
             "githubLink": "https://github.com/kunzeleric/project_Ecommerce",
             "netlifyLink": "https://ecommerce-dnc-page.netlify.app"
