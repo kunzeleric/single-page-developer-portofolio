@@ -52,7 +52,7 @@ export const PROJECTS =
         },
         {
             "name": "To-Do List",
-            "technologies": ["React", "Styled Components", "API"],
+            "technologies": ["React", "Styled Components"],
             "imgPath": "./todolist.jpg",
             "githubLink": "https://github.com/kunzeleric/ignite-todo-list",
             "netlifyLink": "https://tasklist-todos-ignite.netlify.app/"
