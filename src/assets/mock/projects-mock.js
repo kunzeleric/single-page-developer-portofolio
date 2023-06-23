@@ -2,7 +2,7 @@
 export const PROJECTS =
     [
         {
-            "name": "Motivational Messages Generator", 
+            "name": "Motivational Messages Generator",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "imgPath": "./motivationalmessages.jpg",
             "githubLink": "https://github.com/kunzeleric/random-inspiration-messages",
@@ -23,7 +23,7 @@ export const PROJECTS =
             "netlifyLink": "https://news-homepage-tech.netlify.app"
         },
         {
-            "name": "E-commerce DNC",
+            "name": "E-commerce Layout Demo",
             "technologies": ["React", "Sass", "React Router"],
             "imgPath": "./ecommerce.jpg",
             "githubLink": "https://github.com/kunzeleric/project_Ecommerce",
@@ -42,5 +42,19 @@ export const PROJECTS =
             "imgPath": "./weatherapi.jpg",
             "githubLink": "https://github.com/kunzeleric/react_Weather",
             "netlifyLink": "https://weather-react-nowandthen.netlify.app"
+        },
+        {
+            "name": "Jamming - Make your Playlist!",
+            "technologies": ["React", "Styled Components", "API"],
+            "imgPath": "./jammingapp.jpg",
+            "githubLink": "https://github.com/kunzeleric/jammming-app",
+            "netlifyLink": "https://jammming-playlist-app.netlify.app/"
+        },
+        {
+            "name": "To-Do List",
+            "technologies": ["React", "Styled Components", "API"],
+            "imgPath": "./jammingapp.jpg",
+            "githubLink": "https://github.com/kunzeleric/ignite-todo-list",
+            "netlifyLink": "https://tasklist-todos-ignite.netlify.app/"
         }
     ]
